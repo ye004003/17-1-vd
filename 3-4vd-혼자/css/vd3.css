@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: #333; text-decoration: none;}
+
+.wrap {width: 990px;  margin: 0 auto;}
+.logo {width: 200px; height: 60px; float: left; }
+.header {width: 785px; height: 93px;  margin: 0 auto;}
+.login_box {width: 250px; height: 45px; 
+     float: right; font-size: 0; text-align:right;}
+.login_box li {display: inline-block;  font-size: 13px; padding: 10px;}
+.login_box li img {float: left; margin-top: 7px;}
+.gnb {width: 786px; height: 28px;
+    text-align: center; float: left; background: lightblue;} 
+.gnb ul li {font-size: 0;}
+.gnb li {display: inline-block ;  font-size: 13px; }
+.gnb li a {padding: 0 30px; font-size: 13PX;}
+
+.visual {width: 990px; height: 392px; margin-top: 9px;}
+
+.section {width: 785px; height: 230px;  margin: 20px auto 55px auto;}
+.banner_box {width: 510px; height: 166px; float: left;}
+.banner_box li {width: 113px; height: 161px; background: #ccc; float: left;}
+.banner_box .big {width: 251px; height: 164px;  float: right ; margin: 0;}
+.section .pop_box {width: 248px; height: 161px;  float: right}
+.section .news_box {width:785px; height: 32px;  float: left;
+    margin-top: 32px; background: #eee;}
+
+.pop_box {width: 274px; height: 156px; float: right;}
+.pop_box h2 {width: 246px; height: 28px; line-height: 28px; 
+    border-bottom: 1px solid #e6e6e6; font-size: 15px; font-weight: bold; color: #444;
+background-image: url(../image/bul02.jpg); background-repeat: no-repeat; background-position: 0 center;
+text-indent: 10px;} 
+.pop_box h2 span {color: #ff9555;}
+
+.pop_box ol {}
+.pop_box ol li {width: 264px; height: 28px; line-height: 28px; border-bottom: 1px solid #e6e6e6;
+font-size: 13px; font-weight: bold; color: #777; text-indent: 22px;}
+.pop_box ol li a { display: block;}
+
+.news_box h2 {width: 107px; height: 32px; float: left;  font-size: 15px; text-align: center; line-height: 32px;}
+.news_box ul {width: 507px; height: 32px; float: left; line-height: 32px;} 
+.news_box ul li {  height: 32px; } 
+.news_box ul li a { display: block; height: 32px;}
+.news_box a.btn_more {width: 107px; height: 32px; float: right; background-color: red; line-height: 32px; text-align: center;}
+
+.footer {width: 990px; height: 100px; background: #3e3e3e;}
+.footer_logo { float: left; margin-left: 100px; margin-top: 20px; }
+.footer_text {width: 530px; float: left; background-color: #000; margin-left: 105px; margin-top: 20px; color: #999;
+font-size: 12px; text-align: right; word-break: keep-all;}
